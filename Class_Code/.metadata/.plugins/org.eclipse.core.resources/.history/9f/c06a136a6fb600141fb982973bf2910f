@@ -1,0 +1,19 @@
+import processing.core.*;
+public class Walker {
+	PApplet p; 
+	Walker(PApplet p_){
+		p = p_; 
+		
+	}
+	
+	public void step()
+	{
+		
+	}
+	public void display(){
+		p.stroke(0); 
+		//show off how to handle mouseX stuffs
+		//p.point(Intro.mouse_x, Intro.mouse_y);
+		
+	}
+}

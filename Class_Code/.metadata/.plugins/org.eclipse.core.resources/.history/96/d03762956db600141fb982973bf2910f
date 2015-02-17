@@ -1,0 +1,13 @@
+import processing.core.*;
+
+public class Intro extends PApplet{
+	public void setup(){
+		
+	}
+	
+	public void draw(){
+		
+		fill(255); 
+		ellipse(122,122,122,122);
+	}
+}

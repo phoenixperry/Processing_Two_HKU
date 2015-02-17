@@ -1,0 +1,31 @@
+import processing.core.*;
+public class Walker {
+	PApplet p; 
+	int x, y; 
+	Walker(PApplet p_){
+		p = p_; 
+		
+	}
+	
+	public void step()
+	{
+		int choice = (int)(p.random(4)); 
+		switch(choice){
+			case 0:
+				x++; 
+			break;
+			case 1:
+				x--; 
+			case 2: 
+				y++; 
+			case 3: 
+				y--; 
+		}
+	}
+	public void display(){
+		p.stroke(0); 
+		//show off how to handle mouseX stuffs
+		//p.point(Intro.mouse_x, Intro.mouse_y);
+		
+	}
+}

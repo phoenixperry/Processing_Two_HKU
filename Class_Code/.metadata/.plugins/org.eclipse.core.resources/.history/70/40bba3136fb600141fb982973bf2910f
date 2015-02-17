@@ -1,0 +1,12 @@
+import processing.core.*;
+public class Walker {
+	PApplet p; 
+	Walker(PApplet p_){
+		p = p_; 
+		
+	}
+	public void draw(){
+		p.stroke(0); 
+		p.point(Intro.mouse_x, Intro.mouse_y);
+	}
+}

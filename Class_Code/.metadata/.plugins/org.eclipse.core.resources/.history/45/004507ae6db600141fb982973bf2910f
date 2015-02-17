@@ -1,0 +1,14 @@
+import processing.core.*;
+
+public class Intro extends PApplet{
+	Walker w; 
+	public void setup(){
+		w = new Walker(); 
+	}
+	
+	public void draw(){
+		w.draw(); 
+		fill(255); 
+		ellipse(122,122,122,122);
+	}
+}

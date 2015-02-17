@@ -1,0 +1,7 @@
+import processing.core.*;
+
+public class Intro extends PApplet{
+	public void setup(){
+		
+	}
+}

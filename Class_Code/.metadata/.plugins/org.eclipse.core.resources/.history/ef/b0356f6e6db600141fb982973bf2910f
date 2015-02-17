@@ -1,0 +1,11 @@
+import processing.core.*;
+public class Walker {
+	PApplet p; 
+	Walker(){
+		p.fill(gray); 
+		
+	}
+	public void draw(){
+		
+	}
+}
