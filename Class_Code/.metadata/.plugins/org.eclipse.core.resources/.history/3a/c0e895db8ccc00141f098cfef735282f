@@ -1,0 +1,10 @@
+import processing.core.*;
+
+public class Polymorph_2 extends PApplet{
+	Pet catPet; 
+	Pet rabbitPet; 
+	
+	public void setup(){}
+	public void draw(){}
+	
+}

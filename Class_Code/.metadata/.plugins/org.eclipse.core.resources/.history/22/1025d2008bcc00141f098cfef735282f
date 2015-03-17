@@ -1,0 +1,7 @@
+
+public class Cat extends Pet{
+	
+	Cat(){
+		super(); 
+	}
+}

@@ -1,0 +1,9 @@
+import processing.core.*;
+public class Cat extends Pet{
+	PApplet p; 
+	Cat(PApplet p_)
+	{
+		p = p_; 
+		
+	}
+}

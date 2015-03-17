@@ -1,0 +1,8 @@
+import processing.core.*; 
+
+public class Rabbit extends Pet {
+	PApplet pApplet; 
+	Rabbit(){
+		super(p_)
+	}
+}

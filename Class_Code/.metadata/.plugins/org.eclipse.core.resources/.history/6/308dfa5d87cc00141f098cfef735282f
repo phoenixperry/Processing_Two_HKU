@@ -1,0 +1,7 @@
+import processing.core.*;
+public class Pet {
+	Pet{
+		
+		
+	}
+}

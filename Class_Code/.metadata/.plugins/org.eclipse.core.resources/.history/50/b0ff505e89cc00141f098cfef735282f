@@ -1,0 +1,6 @@
+import processing.core.*; 
+import Pet; 
+public class Rabbit extends Pet {
+
+
+}

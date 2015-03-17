@@ -1,0 +1,7 @@
+import processing.core.PApplet;
+public class Rabbit extends Pet {
+	public PApplet p; 
+	Rabbit(PApplet p_){
+		p = p_;
+	}
+}

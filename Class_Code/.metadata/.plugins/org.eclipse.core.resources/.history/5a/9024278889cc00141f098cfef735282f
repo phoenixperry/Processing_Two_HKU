@@ -1,0 +1,5 @@
+import processing.core.*;
+public class Cat {
+	public Cat extends Pet; 
+
+}

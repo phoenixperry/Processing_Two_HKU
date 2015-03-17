@@ -1,0 +1,12 @@
+import processing.core.*;
+public class Pet {
+
+	
+	Pet(PApplet p_){
+		p = p_;
+	}	
+	
+	void eat(){
+		println("default eating");
+	} 
+}

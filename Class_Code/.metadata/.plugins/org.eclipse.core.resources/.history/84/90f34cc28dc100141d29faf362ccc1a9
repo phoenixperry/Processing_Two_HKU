@@ -1,0 +1,20 @@
+import processing.core.*;
+
+public class Sprite_sheet extends PApplet {
+	// Example 15-2: Image "sprite"
+
+	PImage head; // A variable for the image file
+	public float x,y;   // Variables for image location
+	public float rot;   // A variable for image rotation
+
+	public void setup(){
+		  head = loadImage("face.jpg");
+		  x = 0.0;
+		  y = width/2.0;
+		  rot = 0.0;
+	} 
+	public void draw()
+	{
+		
+	} 
+}

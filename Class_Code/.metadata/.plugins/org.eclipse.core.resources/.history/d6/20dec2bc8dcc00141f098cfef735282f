@@ -1,0 +1,18 @@
+import processing.core.*;
+
+public class Polymorph_2 extends PApplet{
+	Pet catPet; 
+	Pet rabbitPet; 
+	
+	public void setup(){
+		catPet = new Cat(this); 
+		rabbitPet = new Rabbit(this); 
+	}
+	public void draw(){
+		
+	}
+	public void mousePressed(){
+		if(key=='c') catPet.eat();
+			else rabbitPet.eat();
+	
+}

@@ -1,0 +1,11 @@
+import processing.core.*; 
+
+
+public class Rabbit extends Pet {
+	public PApplet p; 	
+	Rabbit(){
+		super(p); 
+		
+	}
+
+}
