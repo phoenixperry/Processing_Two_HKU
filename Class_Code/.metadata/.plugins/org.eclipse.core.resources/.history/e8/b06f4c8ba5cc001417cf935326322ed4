@@ -1,0 +1,10 @@
+import processing.core.PApplet;
+
+
+public class Koe exends Characters {
+	PApplet p; 
+	public Koe (PApplet p_){
+		super(p_);  
+		p= p_; 
+	}
+}

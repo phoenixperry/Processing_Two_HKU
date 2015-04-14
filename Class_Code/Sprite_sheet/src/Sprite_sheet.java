@@ -7,7 +7,7 @@ public class Sprite_sheet extends PApplet {
 	public float x,y;   // Variables for image location
 	public float rot;   // A variable for image rotation
 
-	public void setup(){
+	public void setup(int x, int y){
 		  head = loadImage("face.jpg");
 		  x = 0.0f;
 		  y = width/2.0f;

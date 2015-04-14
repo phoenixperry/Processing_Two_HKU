@@ -1,4 +1,0 @@
-import processing.core.*;
-public class Image_processing_class extends PApplet{
-
-}

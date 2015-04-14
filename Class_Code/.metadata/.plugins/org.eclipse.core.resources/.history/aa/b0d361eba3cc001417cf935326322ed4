@@ -1,0 +1,17 @@
+import processing.core.*;
+public class Timer extends PApplet{
+	public float startTime= 0.0f; 
+	public float limit = 5000; 
+	public float currentTime = 0.0f; 
+	public void setup(){
+		startTime = millis(); 
+		limit = startTime+limit; 
+	}
+	public void draw(){
+		currentTime = millis();
+		if(currentTime >limit)
+		{
+		}
+		
+	} 
+}

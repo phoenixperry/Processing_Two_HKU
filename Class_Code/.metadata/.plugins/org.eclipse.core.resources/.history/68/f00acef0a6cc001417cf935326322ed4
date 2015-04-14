@@ -1,0 +1,26 @@
+import processing.core.*;
+public class Timer extends PApplet{
+	public Koe cowKoe; 
+	public Eekhoorn eekhoorn; 
+	public Character currentCharacter; 
+	
+	public float startTime= 0.0f; 
+	public float limit = 5000; 
+	public float currentTime = 0.0f; 
+	public void setup(){
+		startTime = millis(); 
+		limit = startTime+limit; 
+		cowKoe = new Koe(this); 
+		eekhoorn = new Eekhoorn(this); 
+		currentCharacter = cowKoe;
+	}
+	public void draw(){
+		cowKoe.draw(); 
+		currentTime = millis();
+		if(currentTime >limit)
+		{
+			println("time out"); 
+		}
+		
+	} 
+}

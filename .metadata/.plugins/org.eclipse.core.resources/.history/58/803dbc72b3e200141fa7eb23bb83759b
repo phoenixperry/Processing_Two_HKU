@@ -1,0 +1,64 @@
+import java.util.*;
+import processing.core.*; 
+
+public class StringsInJava extends PApplet{
+PFont f; 
+PFont createdFont; 
+int speed=5; 
+int xpos=0; 
+public void setup(){
+	size(1000,500); 
+	char[] hello = {'h', 'e', 'l', 'l', 'o'}; 
+	String helloString = "hello"; 
+	println(Character.toString(hello[0]) + helloString.length());
+	
+	for(int i =0; i < hello.length; i++){	
+		println(hello[i]);
+	} 
+	
+	String[] words = {"i", "love", "tea", "and", "i", "love", "coffee"}; 
+	println(words.length +" is the number of words");
+	findDuplicate(words);
+	
+	f = loadFont("data/Avenir-Roman-48.vlw");
+	textFont(f, 48);
+//	
+	//alternatively 
+//	createdFont = createFont("Calibri", 48); 		
+//	textFont(createdFont, 48);
+	
+	//if youre feeling reallly lazy print(PFont.list()); :) 
+} 
+public void draw() {
+	
+	fill(0);
+	text("hey! look words on screen cool yo!", width/2, height/2);
+	
+	//but crap why is it over there? (Also LEFT, RIGHT) 
+	//textAlign(CENTER); 
+	//textWidth(f); 
+	String words = "words here!"; 
+	xpos = (int) (textWidth(words) - width); 
+	text(words, xpos - width, height-100); 
+	xpos +=speed; 
+
+} 
+
+public void findDuplicate(String[] lookforDuplicate){
+
+	for(int i =0; i <lookforDuplicate.length; i++)
+	{
+		for(int j=i+1; j < lookforDuplicate.length; j++ )
+		{
+			if(lookforDuplicate[i].equals(lookforDuplicate[j])){
+				print(lookforDuplicate[i] + " is a duplicate ");} 
+		}
+		
+			
+	} 
+			
+}	
+		
+}
+
+

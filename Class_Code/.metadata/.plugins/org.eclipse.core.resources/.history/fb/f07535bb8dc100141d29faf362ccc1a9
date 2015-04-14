@@ -1,5 +1,0 @@
-import processing.core.*;
-
-public class Sprite_sheet extends PApplet {
-
-}

@@ -1,0 +1,4 @@
+import processing.core.*;
+public class Character {
+
+}

@@ -1,0 +1,36 @@
+import java.util.*;
+import processing.core.*; 
+
+public class StringsInJava extends PApplet{
+	
+public void setup(){
+	char[] hello = {'h', 'e', 'l', 'l', 'o'}; 
+	String helloString = "hello"; 
+	println(Character.toString(hello[0]) + helloString.length());
+	
+	for(int i =0; i < hello.length; i++){	
+		println(hello[i]);
+	} 
+	
+	String[] words = {"i", "love", "tea", "and", "i", "love", "coffee"}; 
+	print(words.length +" is the number of words");
+	//findDuplicate(words);
+} 
+
+public void findDuplicate(String[] lookforDuplicate){
+	for(int i =0; i < lookforDuplicate.length; i++)
+	{
+		for(int j=0; j < lookforDuplicate.length-1; j++)
+		{
+			if(lookforDuplicate[i].equals(lookforDuplicate[j]))
+			{
+				println(lookforDuplicate[j] + "is a duplicate"); 
+			}
+			
+		}
+		
+	}
+} 
+}
+
+

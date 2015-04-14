@@ -1,0 +1,6 @@
+import processing.core.*;
+public class Character {
+	public Character(PApplet p) {
+		
+	}
+}

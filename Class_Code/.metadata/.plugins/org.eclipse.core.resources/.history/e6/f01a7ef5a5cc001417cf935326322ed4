@@ -1,0 +1,13 @@
+import processing.core.PApplet;
+
+
+public class Eekhoorn extends Character {
+	PApplet p; 
+	public Eekhoorn(PApplet p_){
+		super(p_); 
+		p= p_; 
+	}
+	public void draw(){
+		
+	}
+}

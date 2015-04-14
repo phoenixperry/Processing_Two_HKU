@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="processing.core.PImage"/>
+<fullyQualifiedTypeName name="Cat"/>
+<fullyQualifiedTypeName name="Rabbit"/>
 <fullyQualifiedTypeName name="processing.core.PApplet"/>
+<fullyQualifiedTypeName name="javax.swing.Box.Filler"/>
+<fullyQualifiedTypeName name="Koe"/>
+<fullyQualifiedTypeName name="Character"/>
+<fullyQualifiedTypeName name="Eekhoorn"/>
 </qualifiedTypeNameHistroy>

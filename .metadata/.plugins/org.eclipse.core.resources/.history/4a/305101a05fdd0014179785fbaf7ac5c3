@@ -1,0 +1,8 @@
+
+public class test {
+	int x = 10;
+	String s = "cat"; 
+	
+}
+
+

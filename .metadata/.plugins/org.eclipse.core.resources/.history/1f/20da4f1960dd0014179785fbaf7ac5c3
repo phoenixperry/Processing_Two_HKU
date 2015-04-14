@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class test {
+	int x = 10;
+	String s = "2"; 
+	x = Integer.parseInt(s);
+	
+}
+
+

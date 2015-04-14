@@ -1,0 +1,10 @@
+import java.util.*;
+import processing.core.*; 
+
+public class StringsInJava extends PApplet{
+	char[] hello = {'h', 'e', 'l', 'l', 'o'}; 
+	String helloString = "hello"; 
+	println(hello[0], helloString[0]); 
+}
+
+

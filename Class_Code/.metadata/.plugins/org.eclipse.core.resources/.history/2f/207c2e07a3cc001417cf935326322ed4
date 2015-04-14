@@ -1,0 +1,10 @@
+import processing.core.*;
+public class Timer extends PApplet{
+	public float startTime; 
+	
+	public void setup(){
+		
+		
+	}
+	public void draw(){} 
+}

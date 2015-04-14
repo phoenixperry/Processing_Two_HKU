@@ -1,12 +1,12 @@
 import processing.core.*;
 
 public class Intro extends PApplet{
-//	Walker w; 
+	Walker w; 
 //	static float mouse_x; 
 //	static float mouse_y;
 //	public void setup(){
 //		background(0);
-//		w = new Walker(this); 
+		w = new Walker(this); 
 //		size(1000,1000);
 //	}
 //	
