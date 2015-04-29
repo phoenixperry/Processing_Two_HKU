@@ -1,0 +1,12 @@
+import processing.core.*;
+import processing.serial.*;
+import gnu.io.*;
+
+public class Arduino_In extends PApplet{
+	public Serial serial; 
+	public void setup(){
+		println(Serial.list());
+		serial = new Serial(this, "/dev/tty.usbmodem1421", 9600); 
+		
+	} 
+}

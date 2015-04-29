@@ -1,8 +1,0 @@
-
-public class test {
-	int x = 10;
-	string s = "cat"; 
-	
-}
-
-

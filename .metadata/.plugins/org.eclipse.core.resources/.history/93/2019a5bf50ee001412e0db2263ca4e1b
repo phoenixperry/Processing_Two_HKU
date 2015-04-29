@@ -1,0 +1,7 @@
+import processing.core.*;
+import processing.serial.*;
+import gnu.io.*;
+
+public class Arduino_In extends PApplet{
+	public Serial serial; 
+}

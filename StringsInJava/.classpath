@@ -3,5 +3,10 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="/Applications/Processing 2.app/Contents/Resources/Java/core/library/core.jar"/>
+	<classpathentry kind="lib" path="/Applications/Processing 2.app/Contents/Resources/Java/core/library/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="/Applications/Processing 2.app/Contents/Resources/Java/core/library/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="/Applications/Processing 2.app/Contents/Resources/Java/core/library/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="/Applications/Processing 2.app/Contents/Resources/Java/core/library/jogl-all.jar"/>
+	<classpathentry kind="lib" path="/Users/phoenix/Downloads/rxtx-2.1-7-bins-r2/RXTXcomm.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
